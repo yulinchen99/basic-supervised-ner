@@ -1,0 +1,8 @@
+transformers==2.1.1
+seqeval==1.2.2
+torch==1.7.1
+tqdm==4.47.0
+numpy==1.18.5
+apex==0.9.10dev
+ptvsd==4.3.2
+tensorboardX==2.2

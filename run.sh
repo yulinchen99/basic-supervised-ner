@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0 python3 run_ner.py --data_dir ./cluener/ \
+--model_type bert \
+--labels ./cluener/labels.txt \
+--model_name_or_path bert-base-chinese \
+--output_dir ./cluener/rst/ \
+--sample_type cluener \
+--max_seq_length  510 \
+--num_train_epochs 1 \
+--per_gpu_train_batch_size 8 \
+--seed 1 \
+--do_train \
+--do_eval \
+--do_predict \
+--overwrite_output_dir 
